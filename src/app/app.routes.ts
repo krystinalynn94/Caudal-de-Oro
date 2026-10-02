@@ -29,7 +29,7 @@ export const routes: Routes = [
     {
         path: 'data-metrics',
         loadComponent: () =>
-            import('./data-metrics/data-metrics').then((m) => m.data-metrics),
+            import('./data-metrics/data-metrics').then((m) => m.DataMetrics),
     },
     {
         path: '**',
